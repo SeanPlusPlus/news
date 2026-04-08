@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "bun run src/hello.ts",
+    "hn": "bun run src/hn-top.ts",
     "test": "bun test",
     "lint": "biome check .",
     "lint:fix": "biome check --fix .",
