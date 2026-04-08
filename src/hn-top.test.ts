@@ -6,7 +6,7 @@ describe('hn-top', () => {
       stdout: 'pipe',
     });
     const output = await new Response(proc.stdout).text();
-    expect(output).toContain('Hacker News Top');
-    expect(output).toContain('pts');
+    expect(output).toContain('| # | Title |');
+    expect(output).toContain('](');
   });
 });

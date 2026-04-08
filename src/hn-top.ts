@@ -25,17 +25,16 @@ const fetchTopStories = async (n: number): Promise<HNItem[]> => {
   return items;
 };
 
-const formatStory = (story: HNItem, i: number): string => {
-  const comments = story.descendants ?? 0;
+const formatRow = (story: HNItem, i: number): string => {
   const hnLink = `https://news.ycombinator.com/item?id=${story.id}`;
   const url = story.url ?? hnLink;
-  return [
-    `${i + 1}. ${story.title}`,
-    `   ${story.score} pts | ${story.by} | ${comments} comments`,
-    `   ${url}`,
-  ].join('\n');
+  const title = story.title.replaceAll('|', '\\|');
+  return `| ${i + 1} | [${title}](${url}) |`;
 };
 
 const stories = await fetchTopStories(TOP_N);
-console.log(`\n🔶 Hacker News Top ${TOP_N}\n`);
-console.log(stories.map(formatStory).join('\n\n'));
+console.log('| # | Title |');
+console.log('|---|-------|');
+for (let i = 0; i < stories.length; i++) {
+  console.log(formatRow(stories[i]!, i));
+}
