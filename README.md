@@ -1,13 +1,12 @@
 # News
 
-Personal news reading tracker. Fetch articles, log what I read, capture takeaways.
+Personal workspace for staying current on AI, tech, and economics. Context files, research, and debate prep.
 
-## What This Does
+## Toolchain
 
-- **Fetch** — Pull articles from news sources
-- **Read Log** — Track what I've read with dates
-- **Takeaways** — Store notes and reactions per article
+Bun + TypeScript + Biome + Prettier. A hello world script exists as a prototype baseline in case a tool is needed.
 
-## Status
-
-Just getting started. Shape TBD.
+```bash
+bun start        # hello world
+bun run check    # lint + format + test
+```
