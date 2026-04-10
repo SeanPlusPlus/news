@@ -31,7 +31,7 @@ Sean is an engineering lead who builds with AI daily — not just reads about it
 
 - Heavy on primary sources: Karpathy, Amodei, Jensen, Altman directly — not takes on takes
 - Dwarkesh, a16z, Lex Fridman, The Economist for long-form
-- Practitioners over pundits: Anthropic engineering blog, Simon Willison, Fly.io
+- Practitioners over pundits — prefers people building over people commenting
 - Leans builder/optimist — light on skeptic voices (knows this, doesn't care)
 
 **How he argues:**
