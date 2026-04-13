@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "bun run src/hello.ts",
+    "pdf-to-md": "bun run src/pdf-to-md.ts",
     "test": "bun test",
     "lint": "biome check .",
     "lint:fix": "biome check --fix .",
@@ -21,5 +22,8 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "pdf-parse": "^2.4.5"
   }
 }
