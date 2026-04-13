@@ -1,5 +1,4 @@
-node_modules
-dist
-out
-bun.lock
-.claude/
+*.pdf
+*.md
+!README.md
+!CLAUDE.md
