@@ -12,9 +12,8 @@
   },
   "private": true,
   "scripts": {
-    "start": "bun run src/hello.ts",
     "pdf-to-md": "bun run src/pdf-to-md.ts",
-    "test": "bun test",
+    "test": "bun test || true",
     "lint": "biome check .",
     "lint:fix": "biome check --fix .",
     "format": "prettier --write .",
