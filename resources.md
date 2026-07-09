@@ -4,6 +4,7 @@ Curated collection of videos, articles, courses, and podcasts on AI that have sh
 
 | Date | Medium | Source | Description |
 | ------- | ------ | --------------- | ----------- |
+| 2026-07 | Article | AI Futures Project | [AI 2040: Plan A](https://ai-2040.com/) — the AI 2027 team's prescriptive sequel. Alignment threat model is its strongest part; verification is a decaying asset; enforcement is a bluff |
 | 2026-04 | Article | Anthropic | [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) |
 | 2026-04 | Podcast | Dwarkesh | [Jensen Huang - TPU Competition, Selling Chips to China, & Nvidia's Supply Chain Moat](https://podcasts.apple.com/us/podcast/dwarkesh-podcast/id1516093381?i=1000761582962) |
 | 2026-04 | Podcast | a16z | [Marc Andreessen on AI Winters and Agent Breakthroughs](https://podcasts.apple.com/us/podcast/the-a16z-show/id842818711?i=1000759084711) |
